@@ -2,7 +2,7 @@ name: "Release Pipeline"
 on:
   push:
     branches:
-      - v*
+      - main
 jobs:
   release:
     name: Release WebGoat
